@@ -9,10 +9,19 @@ namespace WuerfelspielTests
     {
         [TestMethod]
         public void DummyTest()
+
         {
-            // Dieser Test ist hier, um eine GitHub-Funktion zu testen. 
-            // Einfach löschen :)
-            Assert.IsTrue(true);// is tatsächlich true :O
+            //Arange
+            WuerfelTests wuefel = new WuerfelTests()
+            Wuefel wuefel = new Wuefel= (6);
+            int anzahlSeitenErgebnis = 6;
+
+
+            //Act
+
+            //Assert
+            Assert.AreEqual(wuerfel.AnzahlSeiten, anzahlSeitenErgebnis);
+       
         }
     }
 }
